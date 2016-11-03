@@ -1,4 +1,4 @@
-name := """sura_entrenamiento_scala"""
+name := """entrenamiento_scala"""
 
 version := "1.0"
 
