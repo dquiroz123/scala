@@ -26,9 +26,7 @@ class SyntaxSuite extends FunSuite{
     // Aunque tambien lo puedes hacer explicito si asi lo dquieres
     val y: String = "0"
     assert(y == "0")
-
-    //TODO: Si eres incredulo fijate como el tipo es fuerte y no debil
-
+    
     var strong = "0"
     assertDoesNotCompile ("strong = 1")
   }
@@ -44,7 +42,6 @@ class SyntaxSuite extends FunSuite{
     val res = obj.f1(1)
 
     assert(res == 2)
-    // TODO: simil con metodo estatico, no new, alt enter para el tipo de valor, hablar de funciones y no metodos
 
   }
 
@@ -60,11 +57,7 @@ class SyntaxSuite extends FunSuite{
     val mc = new MyClass(1)
     val res = mc.f1
 
-    assert(res == 2)
-
-    // TODO: notese que a es atributo de clase privado, hablar de contextos, a debe tener un tipo definido, hcaer prueba
-    // TODO: > test-only -- -n "solo1"
-    //
+    assert(res == 2)  
 
   }
 
@@ -123,7 +116,6 @@ class SyntaxSuite extends FunSuite{
       mc.f1(1)
     }
 
-    // TODO borrar los ? y mirar que el test falla, en este punto simil con interfaz
   }
 
   test("Un trait puede tener tambien implementaciones"){
@@ -136,7 +128,6 @@ class SyntaxSuite extends FunSuite{
     val mc = new MyClass
     val res = mc.f1(1)
     assert(res == 2)
-    // TODO borrar los ? y mirar que el test falla, en este punto simil con clase abstracta
 
   }
 
