@@ -1,0 +1,14 @@
+[0m[[0minfo[0m] [0m[32mSetSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- map en un set[0m[0m
+[0m[[0minfo[0m] [0m[32m- head en un set[0m[0m
+[0m[[0minfo[0m] [0m[32m- tail en un set[0m[0m
+[0m[[0minfo[0m] [0m[32m- split en un set[0m[0m
+[0m[[0minfo[0m] [0m[32m- crear nuevo set con un item mas[0m[0m
+[0m[[0minfo[0m] [0m[32m- apply en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- drop en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- dropRight en un set[0m[0m
+[0m[[0minfo[0m] [0m[32m- filter en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- foreach en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- mkString en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- sum en set[0m[0m
+[0m[[0minfo[0m] [0m[32m- suma de los pares[0m[0m

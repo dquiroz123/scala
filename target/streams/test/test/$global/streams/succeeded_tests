@@ -1,0 +1,17 @@
+#Successful Tests
+#Thu Nov 03 14:07:37 COT 2016
+co.com.scalatraining.scalatest.specs.SetFreeSpec=1478190561839
+co.com.scalatraining.collections.SetSuite=1478200057566
+co.com.scalatraining.scalatest.suites.SuiteExample=1478190562154
+co.com.scalatraining.scalatest.specs.SetFunSpec=1478190562239
+co.com.scalatraining.scalatest.specs.SetWordSpec=1478190561882
+co.com.scalatraining.scalatest.specs.SetPropSpec=1478190562097
+co.com.scalatraining.collections.ListSuite=1478190562143
+co.com.scalatraining.modelling.ModellingSuite=1478190562066
+co.com.scalatraining.scalatest.specs.TVSetSpec=1478190561936
+co.com.scalatraining.monads.TrySuite=1478190562064
+co.com.scalatraining.collections.MapSuite=1478190562295
+co.com.scalatraining.currying.CurryingSuite=1478190562031
+co.com.scalatraining.monads.OptionSuite=1478190562319
+co.com.scalatraining.monads.FutureSuite=1478190562195
+co.com.scalatraining.scalatest.specs.HelloSpec=1478190562130

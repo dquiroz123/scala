@@ -1,0 +1,17 @@
+compile
+test
+testOnly co.com.scalatraining.monads.FutureSuite
+testOnly co.com.scalatraining.monads.OptionSuite
+testOnly co.com.scalatraining.monads.ModellingSuite
+testOnly co.com.scalatraining.modelling.ModellingSuite
+testOnly co.com.scalatraining.monads.TrySuite
+testOnly co.com.scalatraining.syntax.SyntaxSuite
+testOnly -- -n 1
+testOnly -- -n "1"
+testOnly 1
+testOnly "1"
+test-only -- -n "1"
+test-only -- -n "solo1"
+testOnly co.com.scalatraining.syntax.SyntaxSuite
+testOnly co.com.scalatraining.syntax.SetSuite
+testOnly co.com.scalatraining.collections.SetSuite

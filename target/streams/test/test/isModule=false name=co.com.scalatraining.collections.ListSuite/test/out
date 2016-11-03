@@ -1,0 +1,29 @@
+[0m[[0minfo[0m] [0m[32mListSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una List se debe poder construir[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una List se debe poder transformar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular en una direccion determinada (izquierda)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder acumular en una direccion determinada (derecha)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder consultar el primer elemento de una lista de forma insegura[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se debe poder obtener todos los elementos de una lista sin el primer elemento[0m[0m
+[0m[[0minfo[0m] [0m[31m- Se debe poder obtener todos los elementos de una lista vacia sin el primer elemento *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.UnsupportedOperationException: tail of empty list[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:422)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at scala.collection.immutable.Nil$.tail(List.scala:417)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at co.com.scalatraining.collections.ListSuite$$anonfun$9.apply(ListSuite.scala:68)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at co.com.scalatraining.collections.ListSuite$$anonfun$9.apply(ListSuite.scala:66)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder dividir[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder reversar[0m[0m
+[0m[[0minfo[0m] [0m[32m- A una lista se le debe poder eliminar elementos con drop[0m[0m
+[0m[[0minfo[0m] [0m[32m- A una lista se le pueden descartar elementos en una direccion determinada (right)[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder filtrar con una hof[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder recorrer imperativamente[0m[0m
+[0m[[0minfo[0m] [0m[32m- Una lista se debe poder serializar[0m[0m
+[0m[[0minfo[0m] [0m[32m- Se pueden poder sumar los elementos de una lista[0m[0m

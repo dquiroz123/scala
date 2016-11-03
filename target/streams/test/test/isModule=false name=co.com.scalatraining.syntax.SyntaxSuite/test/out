@@ -1,0 +1,10 @@
+[0m[[0minfo[0m] [0m[32mSyntaxSuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un var debe permitir realizar asignaciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un val no debe permitir realizar asignaciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Los tipos en Scala son iferidos por el compilador[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un object puede tener funciones miembro[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un class se puede comoportar como un class tradicional[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un class se puede puede mutar su estado[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un case es una clase normal para usos especificos, tiene constructor y serializador a toString[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un trait puede tener solo definiciones[0m[0m
+[0m[[0minfo[0m] [0m[32m- Un trait puede tener tambien implementaciones[0m[0m

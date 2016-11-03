@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0m[32mTrySuite:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try for-com. A chain of Success is a Success[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try for-com. A chain of Tries with a Failure is a Failure[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Is Try associative?[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Does Try comply right unit?[0m[0m
+[0m[[0minfo[0m] [0m[32m- Try monad verification. Does Try comply left unit (1)?[0m[0m
+[0m[[0minfo[0m] [0m[31m- Try monad verification. Does Try comply left unit (2)? *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  java.lang.ArithmeticException: / by zero[0m[0m
+[0m[[0minfo[0m] [0m[31m  at co.com.scalatraining.monads.TrySuite$$anonfun$13.apply(TrySuite.scala:134)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at co.com.scalatraining.monads.TrySuite$$anonfun$13.apply(TrySuite.scala:123)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)[0m[0m
+[0m[[0minfo[0m] [0m[31m  at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:183)[0m[0m
+[0m[[0minfo[0m] [0m[31m  ...[0m[0m
